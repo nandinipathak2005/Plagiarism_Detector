@@ -1,5 +1,4 @@
 package com.plagiarism.plagiarismchecker.service;
-
 import com.plagiarism.plagiarismchecker.entity.Job;
 import com.plagiarism.plagiarismchecker.entity.Submission;
 import com.plagiarism.plagiarismchecker.repository.JobRepository;

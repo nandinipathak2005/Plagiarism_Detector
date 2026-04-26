@@ -41,7 +41,7 @@ public class FullIntegrationTest {
         Job job = new Job();
         job.setJobName("Assignment 1");
         job.setDescription("Plagiarism Check");
-
+        job.setUser(user);  // ✅ correct
         Job savedJob = jobRepository.save(job);
 
         // ✅ 3. Mock ZIP file

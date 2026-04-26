@@ -23,7 +23,7 @@ public class JobRepositoryTest {
         Job job = new Job();
         job.setJobName("Assignment 1");
         job.setDescription("Plagiarism check");
-  
+        
 
         Job savedJob = jobRepository.save(job);
 
